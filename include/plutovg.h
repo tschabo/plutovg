@@ -9,7 +9,7 @@ extern "C" {
 #  ifdef PLUTO_EXPORT_LIB
 #    define PLUTO_DLL_EXPORT __declspec(dllexport)
 #  else
-#    define PLUTO_DLL_EXPORT __declspec(dllimport)
+#    define PLUTO_DLL_EXPORT
 #  endif
 #else
 #  define PLUTO_DLL_EXPORT
